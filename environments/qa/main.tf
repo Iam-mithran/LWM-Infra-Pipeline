@@ -13,3 +13,4 @@ module "ec2" {
   subnet_id         = module.vpc.subnet_id
   ec2_count         = 3
   env               = "qa"
+}
