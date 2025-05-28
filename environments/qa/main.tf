@@ -1,3 +1,4 @@
+/*
 module "vpc" {
   source        = "../../modules/vpc"
   vpc_cidr      = "11.0.0.0/16"
@@ -14,3 +15,4 @@ module "ec2" {
   ec2_count         = 3
   env               = "qa"
 }
+*/
